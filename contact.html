@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <nav id="navbar" class="flex items-center justify-between p-5 shadow-2xl">
+
+        <!-- Logo -->
+        <h1 class="text-3xl font-bold">StyleSpark</h1>
+
+        <!-- Desktop Menu -->
+        <ul id="midsection" class="hidden md:flex gap-6 items-center">
+            <li><a class="hover:underline" href="index.html">HOME</a></li>
+            <li><a class="hover:underline" href="index.html#new-arrivals">NEW ARRIVAL</a></li>
+            <li><a class="hover:underline" href="index.html#brands">BRANDS</a></li>
+            <li><a class="hover:underline" href="index.html#top-selling">MOST WANTED</a></li>
+            <li><a class="hover:underline" href="collections.html">COLLECTION</a></li>
+            <li><a class="hover:underline" href="contact.html">CONTACT US</a></li>
+        </ul>
+
+        <!-- Right Side -->
+        <div class="flex items-center gap-6">
+
+            <!-- Desktop Icons -->
+            <div id="icons" class="hidden md:flex items-center gap-6">
+
+                <svg id="icon1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-7 h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+
+                <svg id="icon2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-7 h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                </svg>
+
+                <button id="btn2"
+                    class="bg-white text-black px-4 py-2 rounded-md font-bold transform hover:-translate-y-1 duration-300">
+                    SIGN IN
+                </button>
+
+            </div>
+
+            <!-- Mobile Menu Icon -->
+            <svg id="Menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-8 h-8 cursor-pointer md:hidden">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+
+        </div>
+
+    </nav>
+
+    <nav id="navbar2">
+        <ul id="midsection" class="hidden md:flex gap-6 items-center">
+            <li><a class="hover:underline" href="index.html">HOME</a></li>
+            <li><a class="hover:underline" href="index.html#new-arrivals">NEW ARRIVAL</a></li>
+            <li><a class="hover:underline" href="index.html#brands">BRANDS</a></li>
+            <li><a class="hover:underline" href="index.html#top-selling">MOST WANTED</a></li>
+            <li><a class="hover:underline" href="collections.html">COLLECTION</a></li>
+            <li><a class="hover:underline" href="contact.html">CONTACT US</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact">
+
+        <div id="contact-left">
+
+            <h3>GET IN TOUCH</h3>
+            <h1>Let's Talk</h1>
+
+            <p>
+                Have questions about our latest collections, orders, or sizing?
+                Our StyleSpark team is always ready to help you.
+            </p>
+
+            <div class="contact-info">
+                <h4>Address</h4>
+                <p>StyleSpark Fashion Store<br>Chennai, Tamil Nadu, India</p>
+            </div>
+
+            <div class="contact-info">
+                <h4>Email</h4>
+                <p>support@stylespark.com</p>
+            </div>
+
+            <div class="contact-info">
+                <h4>Phone</h4>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="contact-info">
+                <h4>Working Hours</h4>
+                <p>Monday - Saturday<br>9:00 AM - 7:00 PM</p>
+            </div>
+
+        </div>
+
+        <div id="contact-right">
+
+            <h2>Send us a Message</h2>
+
+            <form>
+
+                <input id="name1" type="text" placeholder="Full Name">
+                <span id="nameerror">ENTER THE NAME</span>
+
+                <input id="email" type="email" placeholder="Email Address">
+                <span id="emailerror">ENTER THE Email</span>
+
+                <input id="subject" type="number" placeholder="Number">
+                <span id="suberror">ENTER THE Number</span>
+
+                <textarea id="message" placeholder="Write your message here..."></textarea>
+                <span id="msgerror">ENTER THE Message</span>
+
+                <button id="send">Send Message</button>
+
+                <span id="msg-sent">MESSAGE SENT SUCCESSFULLY</span>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer id="footer">
+
+        <div id="footer-top">
+
+            <!-- Left Section -->
+            <div id="footer-left">
+
+                <div id="logo-box">
+                    <h1>STYLE<span>SPARK</span></h1>
+                </div>
+
+                <div id="footer-text">
+                    <p>
+                        Premium, high-contrast streetwear designed for
+                        those who navigate the urban landscape with style
+                        and utility.
+                    </p>
+                </div>
+
+                <div id="social-icons">
+                    <a href="">𝕏</a>
+                    <a href="">in</a>
+                    <a href="">◎</a>
+                    <a href="">▶</a>
+                </div>
+
+            </div>
+
+            <!-- Right Section -->
+            <div id="footer-right">
+
+                <div class="footer-links">
+                    <h3>SHOP</h3>
+                    <a href="collections.html">All Collections</a>
+                    <a href="index.html#new-arrivals">New Arrivals</a>
+                    <a href="index.html#top-selling">Most Wanted</a>
+                    <a href="index.html#banner">Campaign Sale</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>HELP</h3>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="">Sizing Guide</a>
+                    <a href="">Shipping Info</a>
+                    <a href="index.html">Returns System</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>COMPANY</h3>
+                    <a href="index.html#about">About Us</a>
+                    <a href="">Careers</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms of Use</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div id="footer-bottom">
+            <p>&copy; 2026 STYLESPARK.</p>
+
+            <div id="bottom-right">
+                <p>MADE IN INDIA</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
